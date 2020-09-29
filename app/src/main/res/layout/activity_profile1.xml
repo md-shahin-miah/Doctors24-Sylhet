@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FCF8FD"
+    tools:context="com.okcodex1.doctor24sylhet.ProfileActivity1">
+
+
+    <RelativeLayout
+android:layout_marginBottom="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="5dp"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/PnameID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:padding="10dp"
+                                android:text="ডাঃ মোহাম্মাদ শাহীন"
+                                android:textColor="#9c27b0"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="15dp"
+                                android:orientation="horizontal"
+                                android:weightSum="3">
+
+
+                                <TextView
+                                    android:id="@+id/PSmsID"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="right|center_vertical"
+                                    android:layout_weight="1"
+                                    android:drawableRight="@drawable/ic_sms_black_24dp"
+
+                                    android:padding="10dp"
+
+                                    />
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/PCirImageID"
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/avatar"
+                                    app:civ_border_color="#9c27b0"
+                                    app:civ_border_width="1dp" />
+
+                                <TextView
+                                    android:id="@+id/PCallID"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="1"
+                                    android:drawableLeft="@drawable/call_black_24dp"
+                                    android:padding="10dp" />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginLeft="10dp"
+
+                                android:layout_marginRight="10dp"
+                                android:background="#9c27b0" />
+
+                            <TextView
+                                android:id="@+id/PQualificationId"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:padding="10dp"
+                                android:text="তান এম্বিবিএস আফচিপিএস হক্কলতা কমপ্লিট জারে
+                               মঞ্ছায় লইয়া আইয়া পারইন কোন সমাস্যা নাই ,
+                                 ডাক্তার ভালা কোন কথা নাই ।"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="হাসপাতাল"
+                                android:textColor="#9c27b0"
+                                android:textSize="20sp"
+
+
+                                />
+
+                            <TextView
+                                android:id="@+id/PworksAtID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+
+                                android:text="ওসমানী মেডিকেল হাসপাতাল,মর নাইলে বাচো হাসপাতাল,গলাত দা হাসপাতাল সহ যত বালা বালা কোরবানি করার হাস্পাতাল আছে একানো তানরে পাইবায় "
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="চেম্বার "
+                                android:textColor="#9c27b0"
+                                android:textSize="20sp"
+
+                                />
+
+
+                            <TextView
+                                android:id="@+id/Pchamber"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:padding="5dp"
+                                android:text="সব ক্লিনিক , ডায়াগনস্টিক সেন্টার হক্কলতাত পাইবায় তানরে"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="40dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="5dp"
+                                        android:text="রোগী দেখার সময়"
+                                        android:textColor="#9c27b0"
+                                        android:textSize="20sp" />
+
+                                    <TextView
+                                        android:id="@+id/PvisitingTimeID"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="5dp"
+                                        android:text="যেকোন সময় আইবা"
+                                        android:textSize="16sp"
+
+
+                                        />
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="5dp"
+                                        android:text="ফোন নাম্বার"
+                                        android:textColor="#9c27b0"
+                                        android:textSize="20sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+
+                                        <TextView
+                                            android:id="@+id/PNumberID"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_horizontal"
+                                            android:padding="5dp"
+                                            android:text="01788885000"
+                                            android:textColor="#4CAF50"
+                                            android:textIsSelectable="true"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold"
+
+                                            />
+
+                                        <!--                            <ImageView-->
+                                        <!--                                android:id="@+id/PCallID1"-->
+                                        <!--                                android:layout_width="wrap_content"-->
+                                        <!--                                android:layout_height="match_parent"-->
+                                        <!--                                android:layout_marginLeft="5dp"-->
+                                        <!--                                android:padding="5dp"-->
+                                        <!--                                android:src="@drawable/call_black_24dp" />-->
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="5dp"
+                                        android:text="রোগী দেখেন"
+                                        android:textColor="#9c27b0"
+                                        android:textSize="20sp" />
+
+                                    <TextView
+                                        android:id="@+id/PoffdayID"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="5dp"
+                                        android:text="ইতা নাই ইকানো"
+                                        android:textSize="16sp"
+
+
+                                        />
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="5dp"
+                                        android:text="ই-মেইল"
+                                        android:textColor="#9c27b0"
+                                        android:textSize="20sp" />
+
+
+                                    <TextView
+                                        android:id="@+id/PemailID"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal"
+                                        android:padding="5dp"
+                                        android:text="ok@example.com"
+                                        android:textSize="16sp"
+
+                                        />
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+
+        </ScrollView>
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1830176209861320/1365750819">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+
+
+
+
+

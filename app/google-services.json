@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647445254236",
+    "firebase_url": "https://findingdoctor-bad3d.firebaseio.com",
+    "project_id": "findingdoctor-bad3d",
+    "storage_bucket": "findingdoctor-bad3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647445254236:android:f485913e1f8b5745789699",
+        "android_client_info": {
+          "package_name": "com.okcodex1.doctor24sylhet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647445254236-an433u91aljeam42snu8dv5153fcbh00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvi6CHzCMwrJxQR6l157L1x4UopeEA5pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647445254236-an433u91aljeam42snu8dv5153fcbh00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

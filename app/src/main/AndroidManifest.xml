@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.okcodex1.doctor24sylhet">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/mainlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mainlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.okcodex1.doctor24sylhet.AboutUsActivity"/>
+        <activity android:name="com.okcodex1.doctor24sylhet.FeedbackActivity" />
+        <activity android:name="com.okcodex1.doctor24sylhet.ProfileActivity1" />
+        <activity android:name="com.okcodex1.doctor24sylhet.DoctorsListActivity" />
+        <activity android:name="com.okcodex1.doctor24sylhet.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544/6300978111"/>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF8FD"
+    android:orientation="vertical"
+
+
+    tools:context="com.okcodex1.doctor24sylhet.MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:layout_marginBottom="55dp"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/MainLeanID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/BarID"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#FCF8FD"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="হৃদরোগ বিশেষজ্ঞ "
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDcar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+
+
+                        >
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="মেডিসিন বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDmedi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="স্ত্রীরোগ ও প্রসেসট্রিক্স বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDstri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0"
+                        android:padding="5dp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+
+                        >
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <!--            <LinearLayout-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:orientation="vertical">-->
+
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:orientation="horizontal"-->
+                <!--                    android:weightSum="5">-->
+
+                <!--                    <TextView-->
+
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_weight="4"-->
+                <!--                        android:padding="10dp"-->
+                <!--                        android:text="বুক বিশেষজ্ঞ"-->
+                <!--                        android:textColor="	#9c27b0"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold"-->
+
+                <!--                        />-->
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/SeemoreIDbuk"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="match_parent"-->
+                <!--                        android:layout_weight="1"-->
+                <!--                        android:gravity="right|center_vertical"-->
+                <!--                        android:padding="10dp"-->
+                <!--                        android:text="আরও দেখুন"-->
+                <!--                        android:textColor="#9c27b0"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                </LinearLayout>-->
+
+                <!--                <View-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="1dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:background="#9c27b0" />-->
+
+                <!--                <androidx.recyclerview.widget.RecyclerView-->
+                <!--                    android:id="@+id/recyclerID3"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginBottom="10dp">-->
+
+
+                <!--                </androidx.recyclerview.widget.RecyclerView>-->
+
+
+                <!--            </LinearLayout>-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:padding="10dp"
+                            android:text="ট্রমা,অর্থোপেডিক্স ও হাড় জোড়া"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDortho"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:id="@+id/DepartmentID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="শিশু পেডিয়াট্রিক বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDshishu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="নিউরোমেডিসিন বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDneuro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="ক্যান্সার-অনকোলজি বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDcancer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="ত্বক ও যৌনরোগ বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDtok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <!--            <LinearLayout-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:orientation="vertical">-->
+
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:orientation="horizontal"-->
+                <!--                    android:weightSum="5">-->
+
+                <!--                    <TextView-->
+
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_weight="4"-->
+                <!--                        android:padding="10dp"-->
+                <!--                        android:text="শ্তন বিশেষজ্ঞ"-->
+                <!--                        android:textColor="	#9c27b0"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold"-->
+
+                <!--                        />-->
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/SeemoreIDston"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="match_parent"-->
+                <!--                        android:layout_weight="1"-->
+                <!--                        android:gravity="right|center_vertical"-->
+                <!--                        android:padding="10dp"-->
+                <!--                        android:text="আরও দেখুন"-->
+                <!--                        android:textColor="#9c27b0"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                </LinearLayout>-->
+
+                <!--                <View-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="1dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:background="#9c27b0" />-->
+
+                <!--                <androidx.recyclerview.widget.RecyclerView-->
+                <!--                    android:id="@+id/recyclerID9"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginBottom="10dp">-->
+
+
+                <!--                </androidx.recyclerview.widget.RecyclerView>-->
+
+
+                <!--            </LinearLayout>-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="চক্ষু বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDcokkhu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="দন্ত্য বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDdonto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="ইউরোলজি বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDuro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <!--            <LinearLayout-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:orientation="vertical">-->
+
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:orientation="horizontal"-->
+                <!--                    android:weightSum="5">-->
+
+                <!--                    <TextView-->
+
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_weight="4"-->
+                <!--                        android:padding="10dp"-->
+                <!--                        android:text="অ্যানেস্থেসিওলজি"-->
+                <!--                        android:textColor="	#9c27b0"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold"-->
+
+                <!--                        />-->
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/SeemoreIDanest"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="match_parent"-->
+                <!--                        android:layout_weight="1"-->
+                <!--                        android:gravity="right|center_vertical"-->
+                <!--                        android:padding="10dp"-->
+                <!--                        android:text="আরও দেখুন"-->
+                <!--                        android:textColor="#9c27b0"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                </LinearLayout>-->
+
+                <!--                <View-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="1dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:background="#9c27b0" />-->
+
+                <!--                <androidx.recyclerview.widget.RecyclerView-->
+                <!--                    android:id="@+id/recyclerID13"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginBottom="10dp">-->
+
+
+                <!--                </androidx.recyclerview.widget.RecyclerView>-->
+
+
+                <!--            </LinearLayout>-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="নাক,কান ও গলা বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDnakgola"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="বক্ষব্যাধি ও এজমা বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDbokkhobediEjma"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="সার্জারি/ল্যাপারোস্কপিক বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDSurgery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="মানসিক রোগ বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDmanoshikrug"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="বাত,ব্যাথা,প্যারালাইসিস বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDBathbethaParalysis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="লিভার/পরিপাক ও গ্যাষ্ট্রোলজী "
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDLiverporipak"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="ডায়াবেটিক বিশেষজ্ঞ"
+                            android:textColor="#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDdiabatics"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+
+                        >
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text=" কিডনি বিশেষজ্ঞ"
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDKedney"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lastlinID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10dp"
+                            android:text="অন্যান্য বিশেষজ্ঞ "
+                            android:textColor="	#9c27b0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/SeemoreIDextra"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:padding="10dp"
+                            android:text="আরও দেখুন"
+                            android:textColor="#9c27b0"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#9c27b0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerID22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:visibility="gone"
+                android:id="@+id/recyclerIDAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1830176209861320/1365750819">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+</RelativeLayout>

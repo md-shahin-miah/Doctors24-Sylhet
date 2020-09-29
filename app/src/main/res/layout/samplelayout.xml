@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="190dp"
+    android:layout_margin="4dp"
+    android:elevation="8dp"
+
+    android:orientation="vertical"
+
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/CircularImageID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="#9c27b0"
+            app:civ_border_width="1dp" />
+
+        <TextView
+            android:id="@+id/NameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:text="Mohammad Shahin"
+            android:textColor="#9c27b0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/QualificationID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:text="Qualification Qualification QualificationQualification"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E59BF8"
+    android:orientation="vertical"
+    tools:context="com.okcodex1.doctor24sylhet.AboutUsActivity">
+
+    <RelativeLayout
+android:layout_marginBottom="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/CardID"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="150dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/AboutOkcodexID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="110dp"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="OkCodex"
+                                android:textColor="#9c27b0"
+                                android:textSize="30sp"
+                                android:textStyle="bold"
+
+                                />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="#F1DC25" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp"
+                                android:weightSum="5">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="3.9"
+                                    android:text="E-mail:"
+                                    android:textColor="#9c27b0"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/AboutEmailID"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.3"
+                                    android:drawableRight="@drawable/ic_email_black_24dp"
+                                    android:text="teamokcodex@gmail.com"
+                                    android:textColor="#4CAF50"
+                                    android:textIsSelectable="true"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.3dp"
+                                android:layout_marginTop="5dp"
+                                android:background="#F1D443"
+                                android:padding="10dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp"
+                                android:weightSum="4">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="3"
+
+                                    android:text="Phone :"
+                                    android:textColor="#9c27b0"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/AboutPhoneID"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:drawableRight="@drawable/call_black_24dp"
+                                    android:text=" 01742242243"
+                                    android:textColor="#4CAF50"
+                                    android:textIsSelectable="true"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.3dp"
+                                android:layout_marginTop="5dp"
+                                android:background="#F1D443"
+                                android:padding="10dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp"
+
+                                android:weightSum="5">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="3.5"
+
+                                    android:gravity="center_vertical"
+                                    android:text="Location :"
+                                    android:textColor="#9c27b0"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/AboutLocationID"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:text="Amberkhana,Sylhet."
+                                    android:textColor="#4CAF50"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.3dp"
+                                android:layout_marginTop="5dp"
+                                android:background="#F1D443"
+                                android:padding="10dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginBottom="120dp"
+                                android:orientation="horizontal"
+                                android:padding="10dp"
+                                android:weightSum="5">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="4"
+                                    android:src="@drawable/facebooknew" />
+
+                                <TextView
+                                    android:id="@+id/FbID"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="facebook.com/okcodex"
+                                    android:textColor="#4CAF50"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativepicID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:id="@+id/PCirImageID"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/okcodex"
+                        app:civ_border_color="#FFFFFF"
+                        app:civ_border_width="4dp" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+    </RelativeLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1830176209861320/1365750819">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
+
+
+
+
+

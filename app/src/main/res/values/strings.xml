@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Doctors24 Sylhet</string>
+
+    <string-array name="CardioName">
+        <item>ডাঃ মোঃ আবদুল গনি</item>
+        <item> Dr. Debasish Paul</item>
+        <item>Dr. Mohammad Hussain</item>
+        <item> Professor Dr. Shudhangshu Ranjan Dey</item>
+        <item>Dr. Md. Shah Jamal Hossain</item>
+
+
+    </string-array>
+
+    <string-array name="ttt">
+        <item>ডাঃ মোঃ  গনি</item>
+        <item> Dr.  Paul</item>
+        <item>Dr.  Hussain</item>
+        <item>  Dr.  Ranjan Dey</item>
+        <item>Dr. Md. Shah  </item>
+
+
+    </string-array>
+
+
+    <string-array name="tttsss">
+
+        <item> এমবিবিকার্ডিওলজি)</item>
+        <item> MBBSogy)</item>
+        <item>MMC)</item>
+        <item>SI,FISC,FACC
+Felf Cardiology
+ege of Cardiology
+Habard Medical School, USA</item>
+        <item>ardiology)</item>
+
+    </string-array>
+    <string-array name="CarddiologyQualification">
+
+        <item> এমবিবিএস (সিইউ), ডি-কার্ড (বিএসএমএমইউ), পিজিটি (মেডিসিন ও কার্ডিওলজি)</item>
+        <item> MBBS,MD(Cardiology)</item>
+        <item>MBBS,D-Card(DMC)</item>
+        <item>MBBS,MD,MCSI,FISC,FACC
+Fellow-American College of Cardiology
+European College of Cardiology
+Habard Medical School, USA</item>
+        <item>MD,PhD(Cardiology)</item>
+
+    </string-array>
+</resources>
